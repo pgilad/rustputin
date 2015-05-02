@@ -16,6 +16,8 @@ $ cargo run
 # Open your favorite browser and navigate to 127.0.0.1:6767
 ```
 
+**Notice: This doesn't consider DST, so feel free to adjust or add a PR here**
+
 ## License
 
 MIT ©[Gilad Peleg](http://giladpeleg.com)
