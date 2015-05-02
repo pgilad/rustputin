@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="jumbotron time-capsule">
                     <div class="container" align="center">
-                        <h2>The current local time is {{time}}</h2>
+                        <h2>The current server local time is {{time}}</h2>
                         <h2>The current time is Moscow, Russia is: {{russian_time}}</h2>
                     </div>
                 </div>
