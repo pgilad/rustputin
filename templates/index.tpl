@@ -13,8 +13,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="/vendor/jquery-1.9.1.min.js"></script>
         <link href="/styles/style.css" rel="stylesheet">
     </head>
     <body>
@@ -28,7 +26,5 @@
                 </div>
             </div>
         </div>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
