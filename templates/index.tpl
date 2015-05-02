@@ -1,28 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>{{title}}</title>
+    <head lang="en">
+        <title>Rustputin</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap -->
-        <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
         <link href="/styles/style.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
-            <div class="container">
-                <div class="jumbotron time-capsule">
-                    <div class="container" align="center">
-                        <h2>The current UTC time is {{time}}</h2>
-                        <h2>The current time is Moscow, Russia is: {{russian_time}}</h2>
-                    </div>
+            <div class="jumbotron time-capsule">
+                <div class="container" align="center">
+                    <h2>The current UTC time is {{time}}</h2>
+                    <h2>The current time is Moscow, Russia is: {{russian_time}}</h2>
                 </div>
             </div>
         </div>
