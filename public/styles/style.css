@@ -1,3 +1,6 @@
+html, body {
+    height: 100%;
+}
 html {
     -ms-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -5,9 +8,7 @@ html {
     font-family: sans-serif;
     font-size: 62.5%;
 }
-*,
-:before,
-:after {
+*, :before, :after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -27,21 +28,6 @@ h2 {
     padding-left: 15px;
     padding-right: 15px;
 }
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
 .jumbotron {
     padding: 30px;
     margin-bottom: 30px;
@@ -54,18 +40,7 @@ h2 {
 .jumbotron .container {
     max-width: 100%;
 }
-@media screen and (min-width: 768px) {
-    .jumbotron {
-        padding-top: 48px;
-        padding-bottom: 48px;
-    }
-    .container .jumbotron {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-}
-.container:before,
-.container:after {
+.container:before, .container:after {
     content: " ";
     display: table;
 }
@@ -74,10 +49,6 @@ h2 {
 }
 @-ms-viewport {
     width: device-width;
-}
-html,
-body {
-    height: 100%;
 }
 .time-capsule {
     border: 2px solid rgba(229, 255, 0, 0.69);
@@ -107,21 +78,13 @@ body {
     line-height: 1.42857143;
     padding-top: 75px;
     background: #ffffff;
-    /* Old browsers */
     background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
-    /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e5e5e5));
-    /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
-    /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
-    /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
-    /* IE10+ */
     background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
-    /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
-    /* IE6-9 */
     font-family: 'Helvetica Neue', Helvetica, Arial, serif;
     font-weight: 400;
     color: #f3f3f3;
